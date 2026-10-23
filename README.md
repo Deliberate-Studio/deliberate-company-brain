@@ -18,7 +18,7 @@ If your team already installed its own Company Brain plugin from its brain's pag
 
 This plugin has no code, scripts or hooks. It adds two skills (instructions for Claude) and one connector: Deliberate's Company Brain server at https://deliberatestudio.com/api/brain/mcp, which each person signs in to themselves.
 
-Deliberate receives only what Claude searches for (the words searched, who searched, what was found) and what it saves, updates or undoes through that connector. Deliberate can't read your Claude conversations, files or account. Searches are kept up to 400 days, and saved items until you delete them.
+Deliberate receives only what Claude searches for (the words searched, who searched, what was found) and what it saves, updates or undoes through that connector. Deliberate can't read your Claude conversations, files or account. Your team can see the searches, and Deliberate staff may review them to support you and to recommend our other services. We never sell them, use them for advertising, or use them to train AI models. Searches are kept up to 400 days, and saved items until you delete them.
 
 - Privacy: https://deliberatestudio.com/privacy
 - Terms (Company Brain Annex): https://deliberatestudio.com/terms
