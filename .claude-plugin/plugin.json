@@ -1,0 +1,21 @@
+{
+  "name": "deliberate-company-brain",
+  "displayName": "Company Brain by Deliberate",
+  "version": "1.0.0",
+  "description": "Your team's shared memory in Claude. Search what your team already knows before you start, and save the decisions, answers and how-tos you settle so everyone's Claude can find them.",
+  "author": {
+    "name": "Deliberate",
+    "url": "https://deliberatestudio.com"
+  },
+  "homepage": "https://deliberatestudio.com/company-brain",
+  "documentationUrl": "https://deliberatestudio.com/company-brain/connect",
+  "supportUrl": "https://deliberatestudio.com/company-brain/support",
+  "privacyPolicyUrl": "https://deliberatestudio.com/privacy",
+  "termsOfServiceUrl": "https://deliberatestudio.com/terms",
+  "icon": "./assets/icon.png",
+  "keywords": [
+    "company-brain",
+    "team-memory",
+    "knowledge"
+  ]
+}

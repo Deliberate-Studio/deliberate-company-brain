@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "deliberate-company-brain": {
+      "type": "http",
+      "url": "https://deliberatestudio.com/api/brain/mcp"
+    }
+  }
+}
