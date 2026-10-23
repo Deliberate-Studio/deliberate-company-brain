@@ -5,7 +5,7 @@ Your team's Claudes, one memory. Anything one person saves from their Claude, ev
 ## What it does
 
 - **Searches first.** Ask Claude about your company, its customers, products, vendors, policies or past decisions, and it searches your team's Company Brain before answering. It tells you who saved what it found, and when.
-- **Saves what you settle.** When a conversation settles a decision, an answer or a how-to, Claude saves it to the brain and tells you in one line. If you'd rather not keep it, say "undo" (the person who saved it can undo within 24 hours). Owners and admins can delete any item from the Library.
+- **Saves what you settle.** When a conversation settles a decision, an answer or a how-to, Claude saves it to the brain and tells you in one line. If you'd rather not keep it, say "undo" (the person who saved it can undo within 24 hours, if it hasn't been edited since). Owners and admins can delete any item from the Library.
 - **Never saves** personal matters, small talk, drafts in progress, anything you call private or off the record, credentials, or customers' personal details.
 
 ## Before you start
