@@ -1,15 +1,15 @@
 ---
 name: "save-to-company-brain"
-description: "Save what a conversation settled to your team's Company Brain so everyone's Claude can find it. Use when a decision is made, a recurring question gets answered, a customer or vendor fact or a how-to comes up, a plan or meeting outcome is agreed, or something in the brain turns out to be wrong, and when the user says to remember, save or note something for the team."
+description: "Save what a conversation settled as a note for the team in Deliberate so everyone's Claude can find it. Use when a decision is made, a recurring question gets answered, a customer or vendor fact or a how-to comes up, a plan or meeting outcome is agreed, or something already filed turns out to be wrong, and when the user says to remember, save or note something for the team."
 ---
 
 # Save what the team will need again
 
-Use the `deliberate-company-brain` tools for this team's Company Brain. If several team memories are connected, ask which business this is for.
+Use the `deliberate-company-brain` tools (the Deliberate connector). If several businesses are connected, ask which one this is for.
 
 When a conversation settles something a teammate will need again, save it with `save_context` and tell the user in one line. If `save_context`'s reply gives you a line to show, use it word for word. Otherwise say:
 
-> Saved to the team brain: "{title}".
+> Saved a note for the team: "{title}".
 
 If the user asks you to remove a save: if an `undo_save` tool is available, call it with the id `save_context` returned. Otherwise, correct the item with `update_context` if it's wrong, or tell the user to email hi@deliberatestudio.com to remove it.
 
@@ -19,7 +19,7 @@ How to write a save:
 - **Body:** the conclusion in the first sentence, then the reasons and details a teammate who wasn't here would need.
 - **Tags:** 3 to 6, in the team's own words.
 - One item per topic. Batch related facts together, and keep it to a few saves per conversation.
-- If the brain already has an item on this topic, update it with `update_context` (or save with `supersedes`) instead of saving a near-duplicate.
+- If the team already has an item on this topic, update it with `update_context` (or save with `supersedes`) instead of saving a near-duplicate.
 
 Never save:
 
