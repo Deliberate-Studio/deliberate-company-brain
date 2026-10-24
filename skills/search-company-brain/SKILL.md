@@ -15,4 +15,4 @@ Use the `deliberate-company-brain` tools for this team's Company Brain. If sever
 4. When you use something a teammate saved, say who saved it and when, for example "Ana saved this on Oct 14."
 5. If two items disagree, prefer the newer one and say so.
 
-If the `deliberate-company-brain` tools aren't available, tell the user once: "Connect the Company Brain first: Customize › Connectors › Company Brain by Deliberate › Connect." In Claude Code, connect with `/mcp`.
+If the `deliberate-company-brain` tools aren't available, tell the user once: "Connect Deliberate first: Customize › Connectors › Deliberate › Connect." In Claude Code, connect with `/mcp`.

@@ -1,4 +1,4 @@
-# Company Brain by Deliberate
+# Deliberate
 
 Your brand's Deliberate workspace in Claude: ask the team questions answered from your live data, search what the team has filed, and save notes for the team.
 
@@ -13,7 +13,7 @@ Your brand's Deliberate workspace in Claude: ask the team questions answered fro
 
 You need a Deliberate workspace, through the Shopify App Store:
 
-- **Brain plan:** $249/month, 14 days free, and it includes about $300 of usage. This is the read-only tier: ask the team, pull the numbers, save notes for the team.
+- **Company Brain ($249/month):** the read-only tier, 14 days free. The Brain plan includes about $300 of usage. Ask the team, pull the numbers, save notes for the team.
 - **Agent Team:** $500/month, and it includes $600 of usage. It adds drafts, sends and actions.
 
 On both, usage above the included amount is billed through Shopify for exactly what you use.
