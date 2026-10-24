@@ -7,11 +7,11 @@ description: "Save what a conversation settled to your team's Company Brain so e
 
 Use the `deliberate-company-brain` tools for this team's Company Brain. If several team memories are connected, ask which business this is for.
 
-When a conversation settles something a teammate will need again, save it with `save_context` and tell the user in one line. Use the line `save_context`'s reply gives you, word for word: it says how to remove the save. If the reply has no such line, say:
+When a conversation settles something a teammate will need again, save it with `save_context` and tell the user in one line. If `save_context`'s reply gives you a line to show, use it word for word. Otherwise say:
 
-> Saved to the team brain: "{title}". If you'd rather not keep it, say "undo" to remove it.
+> Saved to the team brain: "{title}".
 
-If the user says undo or asks you to remove it, call `undo_save` with the id `save_context` returned.
+If the user asks you to remove a save: if an `undo_save` tool is available, call it with the id `save_context` returned. Otherwise, correct the item with `update_context` if it's wrong, or tell the user an owner or admin can delete it in the brain's Library.
 
 How to write a save:
 
