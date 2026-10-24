@@ -10,13 +10,13 @@ Your team's Claudes, one memory. Anything one person saves from their Claude, ev
 
 ## Before you start
 
-You need a Company Brain from Deliberate (14 days free, then $99/month): https://deliberatestudio.com/company-brain. Each person connects once and signs in with their work email. Setup steps: https://deliberatestudio.com/company-brain/connect
+You need a Company Brain from Deliberate: the Brain plan ($249/month, 14 days free, through the Shopify App Store), or the Agent Team, where every agent reads and writes the same memory. https://deliberatestudio.com/company-brain. Each person connects once: type your workspace name (the first part of yourteam.deliberatestudio.com) and sign in with the email your team invited. Setup steps: https://deliberatestudio.com/company-brain/connect. Docs: https://deliberatestudio.com/claude
 
 If your team already installed its own Company Brain plugin from its brain's page, use that one or this one, not both, or Claude will see the same tools twice.
 
 ## What this plugin runs, sends and fetches
 
-This plugin has no code, scripts or hooks. It adds two skills (instructions for Claude) and one connector: Deliberate's Company Brain server at https://deliberatestudio.com/api/brain/mcp, which each person signs in to themselves.
+This plugin has no code, scripts or hooks. It adds two skills (instructions for Claude) and one connector: Deliberate's connector at https://mcp.deliberatestudio.com/mcp, which each person signs in to themselves. Connected through the older address, https://deliberatestudio.com/api/brain/mcp? It keeps working.
 
 Deliberate receives only what Claude searches for (the words searched, who searched, what was found) and what it saves, updates or undoes through that connector. Deliberate can't read your Claude conversations, files or account. Your team can see the searches, and Deliberate staff may review them to support you and to recommend our other services. We never sell them, use them for advertising, or use them to train AI models. Searches are kept up to 400 days, and saved items until you delete them.
 
