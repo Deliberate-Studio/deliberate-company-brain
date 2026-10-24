@@ -5,7 +5,7 @@ description: "Search your team's Company Brain before answering a question about
 
 # Search the Company Brain
 
-The Company Brain holds what your team saved from their Claudes, plus the company's own site and store pages. Check it before answering from general knowledge.
+The Company Brain holds what your team saved from their Claudes (on some brains, also the company's own site and store pages). Check it before answering from general knowledge.
 
 Use the `deliberate-company-brain` tools for this team's Company Brain. If several team memories are connected, ask which business this is for.
 

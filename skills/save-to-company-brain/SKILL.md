@@ -11,7 +11,7 @@ When a conversation settles something a teammate will need again, save it with `
 
 > Saved to the team brain: "{title}".
 
-If the user asks you to remove a save: if an `undo_save` tool is available, call it with the id `save_context` returned. Otherwise, correct the item with `update_context` if it's wrong, or tell the user an owner or admin can delete it in the brain's Library.
+If the user asks you to remove a save: if an `undo_save` tool is available, call it with the id `save_context` returned. Otherwise, correct the item with `update_context` if it's wrong, or tell the user to email hi@deliberatestudio.com to remove it.
 
 How to write a save:
 
