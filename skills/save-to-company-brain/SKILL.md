@@ -29,4 +29,4 @@ Never save:
 - passwords, API keys, tokens or other credentials
 - customers' personal details (names with emails, phone numbers or addresses)
 
-If the `deliberate-company-brain` tools aren't available, tell the user once: "Connect the Company Brain first: Customize › Connectors › Company Brain by Deliberate › Connect." In Claude Code, connect with `/mcp`.
+If the `deliberate-company-brain` tools aren't available, tell the user once: "Connect Deliberate first: Customize › Connectors › Deliberate › Connect." In Claude Code, connect with `/mcp`.
