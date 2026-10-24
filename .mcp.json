@@ -2,7 +2,7 @@
   "mcpServers": {
     "deliberate-company-brain": {
       "type": "http",
-      "url": "https://deliberatestudio.com/api/brain/mcp"
+      "url": "https://mcp.deliberatestudio.com/mcp"
     }
   }
 }
